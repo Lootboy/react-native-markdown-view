@@ -5,7 +5,6 @@ export default Object.freeze({
   },
   codeBlock: {
     fontFamily: 'Courier',
-    fontWeight: '500',
   },
   del: {
     textDecorationLine: 'line-through',
@@ -14,7 +13,6 @@ export default Object.freeze({
     fontStyle: 'italic',
   },
   heading: {
-    fontWeight: '700',
   },
   heading1: {
     fontSize: 32,
@@ -73,7 +71,6 @@ export default Object.freeze({
   inlineCode: {
     backgroundColor: 'rgba(128, 128, 128, 0.25)',
     fontFamily: 'Courier',
-    fontWeight: '500',
   },
   link: {
     color: '#0366d6',
@@ -103,7 +100,6 @@ export default Object.freeze({
     marginBottom: 10,
   },
   strong: {
-    fontWeight: '700',
   },
   table: {
     margin: 4,
