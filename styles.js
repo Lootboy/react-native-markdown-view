@@ -3,15 +3,11 @@ export default Object.freeze({
     marginLeft: 10,
     opacity: 0.8,
   },
-  codeBlock: {
-    fontFamily: 'Courier',
-  },
+  codeBlock: {},
   del: {
     textDecorationLine: 'line-through',
   },
-  em: {
-    fontStyle: 'italic',
-  },
+  em: {},
   heading: {
   },
   heading1: {
@@ -64,10 +60,7 @@ export default Object.freeze({
   image: {
     flexGrow: 1,
   },
-  inlineCode: {
-    backgroundColor: 'rgba(128, 128, 128, 0.25)',
-    fontFamily: 'Courier',
-  },
+  inlineCode: {},
   link: {
     color: '#0366d6',
   },
