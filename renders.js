@@ -91,7 +91,7 @@ function paragraphRenderer() {
 
 function textContentRenderer(styleName, styleName2) {
   return (node: InlineContentNode, output: OutputFunction, state: RenderState, styles: RenderStyles) => (
-    <Text key={state.key} style={styleName2 ? [styles[styleName], styles[styleName2]] : styles[styleName]}>
+    <Text key={state.key} style={styleName2 ? [styles[styleName], styles[styleName2]] : styles[styleName]} textBreakStrategy={'simple'}>
       {typeof node.content === 'string' ? node.content : output(node.content, state)}
     </Text>
   )
